@@ -1,0 +1,13 @@
+- group: cups
+  action: purge
+  packages:
+    - cups
+- group: zed
+  action: install
+  packages:
+    - package1
+    - package2
+- group: pylon
+  action: install
+  packages:
+    - package1
